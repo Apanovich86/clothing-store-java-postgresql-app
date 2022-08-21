@@ -4,6 +4,8 @@ package program.entities;
 
 import javax.persistence.*;
 
+import static program.entities.ERole.ROLE_USER;
+
 
 @Entity
 @Table(name="tbl_roles")
@@ -16,7 +18,7 @@ public class Role {
     @Column(length = 20)
     private ERole name;
     public Role() {
-
+    setName(ROLE_USER);
     }
 
     public int getId() {
