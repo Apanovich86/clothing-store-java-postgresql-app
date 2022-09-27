@@ -4,50 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30ad3d89-452f-42da-8a70-258a5ddc6b19" name="Changes" comment="add_role_user">
-      <change afterPath="$PROJECT_DIR$/src/main/java/program/DTO/AddProductDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/program/controllers/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/program/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/program/exeptions/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb5664d3-7f0a-4316-9533-4a945b9c4a3b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cb5664d3-7f0a-4316-9533-4a945b9c4a3b.xml" afterDir="false" />
+    <list default="true" id="30ad3d89-452f-42da-8a70-258a5ddc6b19" name="Changes" comment="add_controllers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/configs/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/configs/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/configs/jwt/AuthEntryPointJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/configs/jwt/AuthEntryPointJwt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/configs/jwt/AuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/configs/jwt/AuthTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/configs/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/configs/jwt/JwtUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/configurationProperties/FileStorageProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/configurationProperties/FileStorageProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/ColorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/ColorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/ImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/ResponseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/ResponseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/SizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/SizeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/ColorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/ColorEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/ERole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/ResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/ResponseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/SizeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/SizeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/exeptions/FileNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/exeptions/FileNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/exeptions/FileStorageException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/exeptions/FileStorageException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/pojo/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/pojo/JwtResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/pojo/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/pojo/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/pojo/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/pojo/MessageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/pojo/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/pojo/SignupRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/ColorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/ColorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/ResponseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/ResponseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/SizeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/SizeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/services/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/services/ImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/services/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/services/UserDetailsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +146,7 @@
       <workItem from="1660989977834" duration="9536000" />
       <workItem from="1661074207411" duration="2929000" />
       <workItem from="1661095264493" duration="3538000" />
-      <workItem from="1664292451312" duration="1432000" />
+      <workItem from="1664292451312" duration="2539000" />
     </task>
     <task id="LOCAL-00001" summary="add_credentials">
       <created>1661074536067</created>
@@ -217,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661100367356</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add_controllers">
+      <created>1664293997167</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664293997167</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +204,8 @@
     <MESSAGE value="add_ddl_auto_update" />
     <MESSAGE value="add_credentials" />
     <MESSAGE value="add_role_user" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_role_user" />
+    <MESSAGE value="add_controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_controllers" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
