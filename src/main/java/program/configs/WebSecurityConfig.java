@@ -4,7 +4,6 @@ package program.configs;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
@@ -60,12 +59,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/api/auth/**").permitAll()
                 .antMatchers("/api/test/**").permitAll()
-                .antMatchers("/api/category/**").permitAll()
-                .antMatchers("/api/color/**").permitAll()
-                .antMatchers("/api/image/**").permitAll()
-                .antMatchers("/api/response/**").permitAll()
+                .antMatchers("/api/categories/**").permitAll()
+                .antMatchers("/api/colors/**").permitAll()
+                .antMatchers("/api/images/**").permitAll()
+                .antMatchers("/api/responses/**").permitAll()
+                .antMatchers("/api/products/**").permitAll()
+                .antMatchers("/api/sizes/**").permitAll()
+                .antMatchers("/api/users/**").permitAll()
                 //.antMatchers(HttpMethod.GET, "/api/category/**").permitAll()
-                //.antMatchers(HttpMethod.POST, "/api/category/**").hasRole('ADMIN')
+                //.antMatchers(HttpMethod.POST, "/api/category/**").hasRole('ROLE_ADMIN')
                 //.antMatchers(HttpMethod.PUT, "/api/category/**").hasRole('ADMIN')
                 //.antMatchers(HttpMethod.PATCH, "/api/category/**").hasRole('ADMIN')
                 //.antMatchers(HttpMethod.DELETE, "/api/category/**").hasRole('ADMIN')

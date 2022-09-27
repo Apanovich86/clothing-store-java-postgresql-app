@@ -4,7 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30ad3d89-452f-42da-8a70-258a5ddc6b19" name="Changes" comment="" />
+    <list default="true" id="30ad3d89-452f-42da-8a70-258a5ddc6b19" name="Changes" comment="add_role_user">
+      <change afterPath="$PROJECT_DIR$/src/main/java/program/DTO/AddProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/program/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/program/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/program/exeptions/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb5664d3-7f0a-4316-9533-4a945b9c4a3b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cb5664d3-7f0a-4316-9533-4a945b9c4a3b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/configs/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/configs/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/configs/jwt/AuthEntryPointJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/configs/jwt/AuthEntryPointJwt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/configs/jwt/AuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/configs/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/configs/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/configs/jwt/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/configurationProperties/FileStorageProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/configurationProperties/FileStorageProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/ColorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/ColorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/ResponseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/ResponseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/SizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/SizeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/ColorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/ColorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/ERole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/ResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/ResponseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/SizeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/SizeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/exeptions/FileNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/exeptions/FileNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/exeptions/FileStorageException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/exeptions/FileStorageException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/pojo/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/pojo/JwtResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/pojo/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/pojo/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/pojo/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/pojo/MessageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/pojo/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/pojo/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/ColorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/ColorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/ResponseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/ResponseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/SizeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/SizeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/services/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/services/ImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/services/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/services/UserDetailsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/services/UserDetailsServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +62,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -92,9 +136,12 @@
       <recent name="program.services" />
       <recent name="program.storage" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Anna\draft\deploy\Diplomy2022-main\Beckend\src\main\java" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Beckend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="program.Main" />
       <extension name="coverage">
@@ -107,11 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -142,29 +184,40 @@
       <workItem from="1659257273173" duration="9443000" />
       <workItem from="1659377993625" duration="8776000" />
       <workItem from="1659639943074" duration="830000" />
-      <workItem from="1660989977834" duration="1636000" />
+      <workItem from="1660989977834" duration="9536000" />
+      <workItem from="1661074207411" duration="2929000" />
+      <workItem from="1661095264493" duration="3538000" />
+      <workItem from="1664292451312" duration="1432000" />
     </task>
-    <task id="LOCAL-00001" summary="Add dataBase">
-      <created>1655897570468</created>
+    <task id="LOCAL-00001" summary="add_credentials">
+      <created>1661074536067</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1655897570468</updated>
+      <updated>1661074536067</updated>
     </task>
-    <task id="LOCAL-00002" summary="Add dataBase">
-      <created>1655898982959</created>
+    <task id="LOCAL-00002" summary="add_ddl_auto_update">
+      <created>1661082488386</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1655898982959</updated>
+      <updated>1661082488386</updated>
     </task>
-    <task id="LOCAL-00003" summary="add database">
-      <created>1656541839513</created>
+    <task id="LOCAL-00003" summary="add_credentials">
+      <created>1661095485002</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1656541839513</updated>
+      <updated>1661095485002</updated>
     </task>
+    <task id="LOCAL-00004" summary="add_role_user">
+      <created>1661100367356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661100367356</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +233,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add_ddl_auto_update" />
+    <MESSAGE value="add_credentials" />
+    <MESSAGE value="add_role_user" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_role_user" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

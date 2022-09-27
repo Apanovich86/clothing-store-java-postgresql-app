@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 import program.entities.ERole;
 import program.entities.Role;
 
-
 import java.util.Optional;
 
 @Repository
